@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSPIRE IIIT Bhopal</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            background: #d1d1d1;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #555;
+            font-size: 14px;
+            overflow: hidden;
+        }
+
+        .logo-placeholder img {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: #0077cc;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo-placeholder">
+            <img src="./logo.jpg" alt="">
+        </div>
+        <h1>INSPIRE IIIT Bhopal</h1>
+        <p>
+            INSPIRE is the techno-spiritual club of IIIT Bhopal that bridges technology and spirituality, encouraging
+            innovation, self-growth, and holistic development among students.
+        </p>
+        <button onclick="showAlert()">Learn More</button>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("Welcome to INSPIRE IIIT Bhopal! Explore the fusion of tech and spirituality.");
+        }
+    </script>
+
+</body>
+
+</html>
